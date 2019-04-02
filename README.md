@@ -26,7 +26,9 @@ or
 npm start
 ```
 
-Then nativgate to you `http://$IP_ADDRESS:8081/index.html` from your VR headset or [http://localhost:8081/index.html](http://localhost:8081/index.html) from you desktop
+Then nativgate to you `http://$IP_ADDRESS:8081/index.html` from your VR headset
+
+Or [http://localhost:8081/index.html](http://localhost:8081/index.html) from your desktop
 
 ## License
 
