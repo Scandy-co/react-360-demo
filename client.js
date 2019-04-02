@@ -2,7 +2,7 @@
 // If you want to modify your application's content, start in "index.js"
 
 import { ReactInstance, Location } from 'react-360-web';
-// import * as THREE from 'three'
+import * as THREE from 'three'
 
 function init(bundle, parent, options = {}) {
   const r360 = new ReactInstance(bundle, parent, {
@@ -13,7 +13,7 @@ function init(bundle, parent, options = {}) {
 
   scene = r360.scene
 
-  // scene.add(new THREE.AmbientLight(0x404040, 5)) // Add soft white light to the scene.
+  scene.add(new THREE.AmbientLight(0x404040, 5)) // Add soft white light to the scene.
 
   // Create a location two meters in front of the user
   const location = new Location([0, 0, -0.25]);
